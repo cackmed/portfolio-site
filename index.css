@@ -10,17 +10,9 @@
   position: fixed;
   z-index: 1;
   opacity: 80%;
+  background: #2F3E46;
+  height: 6vh;
 }
-
-// nav {
-//   display: flex;
-//   justify-content: space-evenly;
-//   margin-top: 60px;
-//   margin-right: 20px;
-//   text-decoration: none;
-//   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-//   font-size: 20px;
-// }
 
 .topnav {
   overflow: hidden;
@@ -68,9 +60,8 @@
     top: 0;
   }
   .topnav.responsive a {
-    float: right;
-    display: block;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
   }
 }
 
