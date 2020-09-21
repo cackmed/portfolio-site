@@ -32,12 +32,6 @@ window.addEventListener('scroll', function() {
 });
 
 
-document.getElementById('button').addEventListener('click', function() {
-  x = screen.height;
-   alert(`this is the screen height ${x}`)
-})
-
-
 
 document.getElementById('icon').addEventListener('click', function() {
   let x = document.getElementById('myTopnav');
@@ -90,9 +84,11 @@ document.getElementById('down-arrow').addEventListener('click', function(){
   });
 });
 
+//phone screen size is 736
+
 document.getElementById('home').addEventListener('click', function(){
   window.scroll({
-    top: screenHeight - 1100, 
+    top: 0, 
     left: 0, 
     behavior: 'smooth' 
   });
