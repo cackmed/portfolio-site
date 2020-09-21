@@ -32,6 +32,12 @@ window.addEventListener('scroll', function() {
 });
 
 
+document.getElementById('button').addEventListener('click', function() {
+  x = screen.height;
+   alert(`this is the screen height ${x}`)
+})
+
+
 
 document.getElementById('icon').addEventListener('click', function() {
   let x = document.getElementById('myTopnav');
