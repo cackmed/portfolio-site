@@ -96,7 +96,7 @@ document.getElementById('home').addEventListener('click', function(){
 
 document.getElementById('projects').addEventListener('click', function(){
   window.scroll({
-    top: (screenHeight / 2) + 100, 
+    top: 550, 
     left: 0, 
     behavior: 'smooth' 
   });
@@ -104,7 +104,7 @@ document.getElementById('projects').addEventListener('click', function(){
 
 document.getElementById('tech').addEventListener('click', function(){
   window.scroll({
-    top: (screenHeight / 2) + 1700, 
+    top: 2100, 
     left: 0, 
     behavior: 'smooth' 
   });
@@ -112,7 +112,7 @@ document.getElementById('tech').addEventListener('click', function(){
 
 document.getElementById('contact').addEventListener('click', function(){
   window.scroll({
-    top: (screenHeight / 2) + 2200, 
+    top: 2800, 
     left: 0, 
     behavior: 'smooth' 
   });
