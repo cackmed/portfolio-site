@@ -84,7 +84,6 @@ document.getElementById('down-arrow').addEventListener('click', function(){
   });
 });
 
-//phone screen size is 736
 
 document.getElementById('home').addEventListener('click', function(){
   window.scroll({
@@ -103,19 +102,39 @@ document.getElementById('projects').addEventListener('click', function(){
 });
 
 document.getElementById('tech').addEventListener('click', function(){
-  window.scroll({
-    top: 2100, 
-    left: 0, 
-    behavior: 'smooth' 
-  });
+  x = screen.height;
+  if(x > 800) {
+    window.scroll({
+      top: 2100, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+  else {
+    window.scroll({
+      top: 1800, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
 });
 
 document.getElementById('contact').addEventListener('click', function(){
-  window.scroll({
-    top: 2800, 
-    left: 0, 
-    behavior: 'smooth' 
-  });
+  x = screen.height;
+  if(x > 800) {
+    window.scroll({
+      top: 2800, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+  else {
+    window.scroll({
+      top: 2100, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
 });
 
 
