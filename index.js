@@ -93,6 +93,15 @@ document.getElementById('home').addEventListener('click', function(){
   });
 });
 
+document.getElementById('about-me').addEventListener('click', function(){
+  window.scroll({
+    top: (screenHeight / 2) + 100,
+    left: 0, 
+    behavior: 'smooth' 
+  });
+});
+
+
 document.getElementById('projects').addEventListener('click', function(){
   x = screen.height;
   if(x > 800) {
