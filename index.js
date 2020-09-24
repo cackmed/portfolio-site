@@ -94,11 +94,22 @@ document.getElementById('home').addEventListener('click', function(){
 });
 
 document.getElementById('projects').addEventListener('click', function(){
-  window.scroll({
-    top: 1150, 
-    left: 0, 
-    behavior: 'smooth' 
-  });
+  x = screen.height;
+  if(x > 800) {
+    window.scroll({
+      top: 1150, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+  else {
+    window.scroll({
+      top: 900, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+
 });
 
 document.getElementById('tech').addEventListener('click', function(){
