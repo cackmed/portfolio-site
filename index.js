@@ -95,31 +95,13 @@ document.getElementById('home').addEventListener('click', function(){
 
 document.getElementById('projects').addEventListener('click', function(){
   window.scroll({
-    top: 550, 
+    top: 1150, 
     left: 0, 
     behavior: 'smooth' 
   });
 });
 
 document.getElementById('tech').addEventListener('click', function(){
-  x = screen.height;
-  if(x > 800) {
-    window.scroll({
-      top: 2100, 
-      left: 0, 
-      behavior: 'smooth' 
-    });
-  }
-  else {
-    window.scroll({
-      top: 1800, 
-      left: 0, 
-      behavior: 'smooth' 
-    });
-  }
-});
-
-document.getElementById('contact').addEventListener('click', function(){
   x = screen.height;
   if(x > 800) {
     window.scroll({
@@ -131,6 +113,24 @@ document.getElementById('contact').addEventListener('click', function(){
   else {
     window.scroll({
       top: 2100, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+});
+
+document.getElementById('contact').addEventListener('click', function(){
+  x = screen.height;
+  if(x > 800) {
+    window.scroll({
+      top: 3200, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
+  else {
+    window.scroll({
+      top: 2500, 
       left: 0, 
       behavior: 'smooth' 
     });

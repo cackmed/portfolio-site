@@ -44,6 +44,11 @@
   display: none;
 }
 
+.img-of-me {
+  width: 350px;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
