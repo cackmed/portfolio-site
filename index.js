@@ -1,5 +1,6 @@
 let pageHeight, ticking, screenHeight, currentEl, pageSectionArr;
 
+
 function checkElement(scroll_pos) {
 
   let x = Math.floor(scroll_pos / (screenHeight / 2));
@@ -103,58 +104,29 @@ document.getElementById('about-me').addEventListener('click', function(){
 
 
 document.getElementById('projects').addEventListener('click', function(){
-  x = screen.height;
-  if(x > 800) {
     window.scroll({
-      top: 1150, 
+      top: screenHeight, 
       left: 0, 
       behavior: 'smooth' 
     });
-  }
-  else {
-    window.scroll({
-      top: 900, 
-      left: 0, 
-      behavior: 'smooth' 
-    });
-  }
-
 });
 
 document.getElementById('tech').addEventListener('click', function(){
-  x = screen.height;
-  if(x > 800) {
     window.scroll({
-      top: 2800, 
+      top: screenHeight * 2.5, 
       left: 0, 
       behavior: 'smooth' 
-    });
-  }
-  else {
-    window.scroll({
-      top: 2100, 
-      left: 0, 
-      behavior: 'smooth' 
-    });
-  }
 });
 
+})
+
 document.getElementById('contact').addEventListener('click', function(){
-  x = screen.height;
-  if(x > 800) {
     window.scroll({
-      top: 3200, 
+      top: screenHeight * 3, 
       left: 0, 
       behavior: 'smooth' 
     });
-  }
-  else {
-    window.scroll({
-      top: 2500, 
-      left: 0, 
-      behavior: 'smooth' 
-    });
-  }
+  
 });
 
 
